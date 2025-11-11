@@ -1,0 +1,604 @@
+{
+    "data": {
+        "status": "success",
+        "timeline": [
+            {
+                "actedBy": null,
+                "eventCode": "rif_submitted",
+                "eventType": "SubmissionWorkflow",
+                "timestamp": "2025-08-19 19:03:04",
+                "toStatusId": 1,
+                "fromStatusId": null
+            },
+            {
+                "actedBy": 148,
+                "eventCode": "risk_score_evaluated",
+                "eventType": "SubmissionWorkflow",
+                "timestamp": "2025-08-19 19:03:04",
+                "toStatusId": 2,
+                "fromStatusId": 1
+            },
+            {
+                "actedBy": 148,
+                "eventCode": "auto_route_to_approval",
+                "eventType": "SubmissionWorkflow",
+                "timestamp": "2025-08-19 19:03:04",
+                "toStatusId": 3,
+                "fromStatusId": 2
+            },
+            {
+                "note": "auto_assign_approver",
+                "actedBy": 148,
+                "eventType": "QuestionWorkflow",
+                "timestamp": "2025-08-19 19:03:04",
+                "assignedTo": 148,
+                "toStatusId": 3,
+                "fromStatusId": null,
+                "vendorAssessmentQuestionId": 150
+            },
+            {
+                "note": "auto_assign_approver",
+                "actedBy": 148,
+                "eventType": "QuestionWorkflow",
+                "timestamp": "2025-08-19 19:03:04",
+                "assignedTo": 148,
+                "toStatusId": 3,
+                "fromStatusId": null,
+                "vendorAssessmentQuestionId": 149
+            },
+            {
+                "note": "auto_assign_approver",
+                "actedBy": 148,
+                "eventType": "QuestionWorkflow",
+                "timestamp": "2025-08-19 19:03:04",
+                "assignedTo": 148,
+                "toStatusId": 3,
+                "fromStatusId": null,
+                "vendorAssessmentQuestionId": 152
+            },
+            {
+                "note": "auto_assign_approver",
+                "actedBy": 148,
+                "eventType": "QuestionWorkflow",
+                "timestamp": "2025-08-19 19:03:04",
+                "assignedTo": 148,
+                "toStatusId": 3,
+                "fromStatusId": null,
+                "vendorAssessmentQuestionId": 151
+            },
+            {
+                "actedBy": 148,
+                "eventCode": "approval_delegated",
+                "eventType": "SubmissionWorkflow",
+                "timestamp": "2025-08-19 19:04:18",
+                "toStatusId": 4,
+                "fromStatusId": 3
+            },
+            {
+                "note": "approval_delegated",
+                "actedBy": 148,
+                "eventType": "QuestionWorkflow",
+                "timestamp": "2025-08-19 19:04:18",
+                "assignedTo": 148,
+                "toStatusId": 4,
+                "fromStatusId": 3,
+                "vendorAssessmentQuestionId": 151
+            },
+            {
+                "note": "approval_delegated",
+                "actedBy": 148,
+                "eventType": "QuestionWorkflow",
+                "timestamp": "2025-08-19 19:04:18",
+                "assignedTo": 148,
+                "toStatusId": 4,
+                "fromStatusId": 3,
+                "vendorAssessmentQuestionId": 150
+            },
+            {
+                "note": "approval_delegated",
+                "actedBy": 148,
+                "eventType": "QuestionWorkflow",
+                "timestamp": "2025-08-19 19:04:18",
+                "assignedTo": 148,
+                "toStatusId": 4,
+                "fromStatusId": 3,
+                "vendorAssessmentQuestionId": 149
+            },
+            {
+                "note": "approval_delegated",
+                "actedBy": 148,
+                "eventType": "QuestionWorkflow",
+                "timestamp": "2025-08-19 19:04:18",
+                "assignedTo": 148,
+                "toStatusId": 4,
+                "fromStatusId": 3,
+                "vendorAssessmentQuestionId": 152
+            },
+            {
+                "actedBy": 148,
+                "eventCode": "approved",
+                "eventType": "SubmissionWorkflow",
+                "timestamp": "2025-08-19 19:04:49",
+                "toStatusId": 6,
+                "fromStatusId": 4
+            },
+            {
+                "actedBy": 209,
+                "eventCode": "answering_delegated_partial",
+                "eventType": "SubmissionWorkflow",
+                "timestamp": "2025-08-19 19:56:50",
+                "toStatusId": 6,
+                "fromStatusId": 6
+            },
+            {
+                "version": 1,
+                "eventType": "QuestionAnswered",
+                "timestamp": "2025-08-19 20:01:39",
+                "answeredBy": 209,
+                "questionId": 7,
+                "responseId": 25,
+                "vendorAssessmentQuestionId": 150
+            },
+            {
+                "note": "vendor_answer_submitted",
+                "actedBy": 209,
+                "eventType": "QuestionWorkflow",
+                "timestamp": "2025-08-19 20:01:39",
+                "assignedTo": null,
+                "toStatusId": 8,
+                "fromStatusId": 6,
+                "vendorAssessmentQuestionId": 150
+            },
+            {
+                "version": 1,
+                "eventType": "QuestionAnswered",
+                "timestamp": "2025-08-19 20:02:16",
+                "answeredBy": 209,
+                "questionId": 5,
+                "responseId": 26,
+                "vendorAssessmentQuestionId": 151
+            },
+            {
+                "note": "vendor_answer_submitted",
+                "actedBy": 209,
+                "eventType": "QuestionWorkflow",
+                "timestamp": "2025-08-19 20:02:16",
+                "assignedTo": null,
+                "toStatusId": 8,
+                "fromStatusId": 6,
+                "vendorAssessmentQuestionId": 151
+            },
+            {
+                "version": 1,
+                "eventType": "QuestionAnswered",
+                "timestamp": "2025-08-19 20:02:32",
+                "answeredBy": 209,
+                "questionId": 11,
+                "responseId": 27,
+                "vendorAssessmentQuestionId": 152
+            },
+            {
+                "note": "vendor_answer_submitted",
+                "actedBy": 209,
+                "eventType": "QuestionWorkflow",
+                "timestamp": "2025-08-19 20:02:32",
+                "assignedTo": null,
+                "toStatusId": 8,
+                "fromStatusId": 6,
+                "vendorAssessmentQuestionId": 152
+            },
+            {
+                "version": 1,
+                "eventType": "QuestionAnswered",
+                "timestamp": "2025-08-19 20:03:28",
+                "answeredBy": 209,
+                "questionId": 1,
+                "responseId": 28,
+                "vendorAssessmentQuestionId": 149
+            },
+            {
+                "actedBy": 209,
+                "eventCode": "all_answers_received",
+                "eventType": "SubmissionWorkflow",
+                "timestamp": "2025-08-19 20:03:28",
+                "toStatusId": 9,
+                "fromStatusId": 6
+            },
+            {
+                "note": "vendor_answer_submitted",
+                "actedBy": 209,
+                "eventType": "QuestionWorkflow",
+                "timestamp": "2025-08-19 20:03:28",
+                "assignedTo": null,
+                "toStatusId": 8,
+                "fromStatusId": 6,
+                "vendorAssessmentQuestionId": 149
+            },
+            {
+                "score": 3,
+                "eventType": "Assessment",
+                "timestamp": "2025-08-19 22:17:27",
+                "questionId": 1,
+                "evaluationId": 16,
+                "evaluatorUserId": 148,
+                "vendorAssessmentQuestionId": 149
+            },
+            {
+                "score": 3,
+                "eventType": "Assessment",
+                "timestamp": "2025-08-19 22:17:43",
+                "questionId": 7,
+                "evaluationId": 17,
+                "evaluatorUserId": 148,
+                "vendorAssessmentQuestionId": 150
+            },
+            {
+                "score": 3,
+                "eventType": "Assessment",
+                "timestamp": "2025-08-19 22:17:54",
+                "questionId": 5,
+                "evaluationId": 18,
+                "evaluatorUserId": 148,
+                "vendorAssessmentQuestionId": 151
+            },
+            {
+                "score": 3,
+                "eventType": "Assessment",
+                "timestamp": "2025-08-19 22:18:03",
+                "questionId": 11,
+                "evaluationId": 19,
+                "evaluatorUserId": 148,
+                "vendorAssessmentQuestionId": 152
+            },
+            {
+                "score": 3,
+                "eventType": "Assessment",
+                "timestamp": "2025-08-19 22:18:33",
+                "questionId": 1,
+                "evaluationId": 20,
+                "evaluatorUserId": 148,
+                "vendorAssessmentQuestionId": 149
+            },
+            {
+                "score": 3,
+                "eventType": "Assessment",
+                "timestamp": "2025-08-19 22:19:07",
+                "questionId": 7,
+                "evaluationId": 21,
+                "evaluatorUserId": 148,
+                "vendorAssessmentQuestionId": 150
+            },
+            {
+                "score": 3,
+                "eventType": "Assessment",
+                "timestamp": "2025-08-19 23:03:18",
+                "questionId": 1,
+                "evaluationId": 22,
+                "evaluatorUserId": 148,
+                "vendorAssessmentQuestionId": 149
+            },
+            {
+                "actedBy": 148,
+                "eventCode": "all_questions_assessed",
+                "eventType": "SubmissionWorkflow",
+                "timestamp": "2025-08-19 23:03:18",
+                "toStatusId": 12,
+                "fromStatusId": 11
+            },
+            {
+                "note": "assessor_scored",
+                "actedBy": 148,
+                "eventType": "QuestionWorkflow",
+                "timestamp": "2025-08-19 23:03:18",
+                "assignedTo": null,
+                "toStatusId": 11,
+                "fromStatusId": 8,
+                "vendorAssessmentQuestionId": 149
+            },
+            {
+                "score": 3,
+                "eventType": "Assessment",
+                "timestamp": "2025-08-19 23:03:54",
+                "questionId": 7,
+                "evaluationId": 23,
+                "evaluatorUserId": 148,
+                "vendorAssessmentQuestionId": 150
+            },
+            {
+                "actedBy": 148,
+                "eventCode": "all_questions_assessed",
+                "eventType": "SubmissionWorkflow",
+                "timestamp": "2025-08-19 23:03:54",
+                "toStatusId": 12,
+                "fromStatusId": 11
+            },
+            {
+                "note": "assessor_scored",
+                "actedBy": 148,
+                "eventType": "QuestionWorkflow",
+                "timestamp": "2025-08-19 23:03:54",
+                "assignedTo": null,
+                "toStatusId": 11,
+                "fromStatusId": 8,
+                "vendorAssessmentQuestionId": 150
+            },
+            {
+                "score": 3,
+                "eventType": "Assessment",
+                "timestamp": "2025-08-19 23:04:04",
+                "questionId": 5,
+                "evaluationId": 24,
+                "evaluatorUserId": 148,
+                "vendorAssessmentQuestionId": 151
+            },
+            {
+                "actedBy": 148,
+                "eventCode": "all_questions_assessed",
+                "eventType": "SubmissionWorkflow",
+                "timestamp": "2025-08-19 23:04:04",
+                "toStatusId": 12,
+                "fromStatusId": 11
+            },
+            {
+                "note": "assessor_scored",
+                "actedBy": 148,
+                "eventType": "QuestionWorkflow",
+                "timestamp": "2025-08-19 23:04:04",
+                "assignedTo": null,
+                "toStatusId": 11,
+                "fromStatusId": 8,
+                "vendorAssessmentQuestionId": 151
+            },
+            {
+                "score": 3,
+                "eventType": "Assessment",
+                "timestamp": "2025-08-19 23:05:14",
+                "questionId": 11,
+                "evaluationId": 25,
+                "evaluatorUserId": 148,
+                "vendorAssessmentQuestionId": 152
+            },
+            {
+                "actedBy": 148,
+                "eventCode": "all_questions_assessed",
+                "eventType": "SubmissionWorkflow",
+                "timestamp": "2025-08-19 23:05:14",
+                "toStatusId": 12,
+                "fromStatusId": 11
+            },
+            {
+                "note": "assessor_scored",
+                "actedBy": 148,
+                "eventType": "QuestionWorkflow",
+                "timestamp": "2025-08-19 23:05:14",
+                "assignedTo": null,
+                "toStatusId": 11,
+                "fromStatusId": 8,
+                "vendorAssessmentQuestionId": 152
+            }
+        ],
+        "questions": [
+            {
+                "response": {
+                    "isFinal": true,
+                    "version": 1,
+                    "answeredAt": "2025-08-19 20:03:28",
+                    "answeredBy": 209,
+                    "responseId": 28,
+                    "responseJson": null,
+                    "responseText": "yes",
+                    "attachmentsJson": [
+                        {
+                            "fileName": "TRACS-Workflow (1) (1) (1).pdf",
+                            "filePath": "https://qeuboxblob.blob.core.windows.net/quebox/TRACS-Workflow%20%281%29%20%281%29%20%281%29.pdf",
+                            "fileType": "application/pdf"
+                        }
+                    ]
+                },
+                "questionId": 1,
+                "assessments": [
+                    {
+                        "evaluatedAt": "2025-08-19 22:17:27",
+                        "evaluationId": 16,
+                        "evaluationScore": 3,
+                        "evaluatorUserId": 148,
+                        "evaluationModeId": 1,
+                        "compliantStatusId": 1,
+                        "evaluationComment": "tested-1",
+                        "evidenceReviewSummary": "tested -1"
+                    },
+                    {
+                        "evaluatedAt": "2025-08-19 22:18:33",
+                        "evaluationId": 20,
+                        "evaluationScore": 3,
+                        "evaluatorUserId": 148,
+                        "evaluationModeId": 2,
+                        "compliantStatusId": 2,
+                        "evaluationComment": "tested-1",
+                        "evidenceReviewSummary": "tested -1"
+                    },
+                    {
+                        "evaluatedAt": "2025-08-19 23:03:18",
+                        "evaluationId": 22,
+                        "evaluationScore": 3,
+                        "evaluatorUserId": 148,
+                        "evaluationModeId": 2,
+                        "compliantStatusId": 2,
+                        "evaluationComment": "tested-1",
+                        "evidenceReviewSummary": "tested-1"
+                    }
+                ],
+                "displayOrder": 1,
+                "questionText": "Have you ever experienced a cybersecurity incident?",
+                "currentStageId": 5,
+                "questionTypeId": 1,
+                "currentStatusId": 11,
+                "vendorAssessmentQuestionId": 149
+            },
+            {
+                "response": {
+                    "isFinal": true,
+                    "version": 1,
+                    "answeredAt": "2025-08-19 20:01:39",
+                    "answeredBy": 209,
+                    "responseId": 25,
+                    "responseJson": null,
+                    "responseText": "yes",
+                    "attachmentsJson": [
+                        {
+                            "fileName": "g3sec.ai8 (1).png",
+                            "filePath": "https://qeuboxblob.blob.core.windows.net/quebox/g3sec.ai8%20%281%29.png",
+                            "fileType": "image/png"
+                        }
+                    ]
+                },
+                "questionId": 7,
+                "assessments": [
+                    {
+                        "evaluatedAt": "2025-08-19 22:17:43",
+                        "evaluationId": 17,
+                        "evaluationScore": 3,
+                        "evaluatorUserId": 148,
+                        "evaluationModeId": 2,
+                        "compliantStatusId": 2,
+                        "evaluationComment": "tested -2",
+                        "evidenceReviewSummary": "tested-2"
+                    },
+                    {
+                        "evaluatedAt": "2025-08-19 22:19:07",
+                        "evaluationId": 21,
+                        "evaluationScore": 3,
+                        "evaluatorUserId": 148,
+                        "evaluationModeId": 2,
+                        "compliantStatusId": 2,
+                        "evaluationComment": "tested -2",
+                        "evidenceReviewSummary": "tested-2"
+                    },
+                    {
+                        "evaluatedAt": "2025-08-19 23:03:54",
+                        "evaluationId": 23,
+                        "evaluationScore": 3,
+                        "evaluatorUserId": 148,
+                        "evaluationModeId": 2,
+                        "compliantStatusId": 2,
+                        "evaluationComment": "tested-2",
+                        "evidenceReviewSummary": "tested-2"
+                    }
+                ],
+                "displayOrder": 1,
+                "questionText": "Do you carry liability or cyber insurance?",
+                "currentStageId": 5,
+                "questionTypeId": 1,
+                "currentStatusId": 11,
+                "vendorAssessmentQuestionId": 150
+            },
+            {
+                "response": {
+                    "isFinal": true,
+                    "version": 1,
+                    "answeredAt": "2025-08-19 20:02:16",
+                    "answeredBy": 209,
+                    "responseId": 26,
+                    "responseJson": null,
+                    "responseText": "yes",
+                    "attachmentsJson": [
+                        {
+                            "fileName": "TRACS-Workflow (1) (1) (1).pdf",
+                            "filePath": "https://qeuboxblob.blob.core.windows.net/quebox/TRACS-Workflow%20%281%29%20%281%29%20%281%29.pdf",
+                            "fileType": "application/pdf"
+                        }
+                    ]
+                },
+                "questionId": 5,
+                "assessments": [
+                    {
+                        "evaluatedAt": "2025-08-19 22:17:54",
+                        "evaluationId": 18,
+                        "evaluationScore": 3,
+                        "evaluatorUserId": 148,
+                        "evaluationModeId": 2,
+                        "compliantStatusId": 2,
+                        "evaluationComment": "tested-3",
+                        "evidenceReviewSummary": "tested-3"
+                    },
+                    {
+                        "evaluatedAt": "2025-08-19 23:04:04",
+                        "evaluationId": 24,
+                        "evaluationScore": 3,
+                        "evaluatorUserId": 148,
+                        "evaluationModeId": 2,
+                        "compliantStatusId": 2,
+                        "evaluationComment": "tested-3",
+                        "evidenceReviewSummary": "tested-3"
+                    }
+                ],
+                "displayOrder": 11,
+                "questionText": "Do you use firewalls and antivirus/anti-malware software across systems?",
+                "currentStageId": 5,
+                "questionTypeId": 1,
+                "currentStatusId": 11,
+                "vendorAssessmentQuestionId": 151
+            },
+            {
+                "response": {
+                    "isFinal": true,
+                    "version": 1,
+                    "answeredAt": "2025-08-19 20:02:32",
+                    "answeredBy": 209,
+                    "responseId": 27,
+                    "responseJson": null,
+                    "responseText": "yes",
+                    "attachmentsJson": [
+                        {
+                            "fileName": "TRACS-Workflow (1) (1) (3).pdf",
+                            "filePath": "https://qeuboxblob.blob.core.windows.net/quebox/TRACS-Workflow%20%281%29%20%281%29%20%283%29.pdf",
+                            "fileType": "application/pdf"
+                        }
+                    ]
+                },
+                "questionId": 11,
+                "assessments": [
+                    {
+                        "evaluatedAt": "2025-08-19 22:18:03",
+                        "evaluationId": 19,
+                        "evaluationScore": 3,
+                        "evaluatorUserId": 148,
+                        "evaluationModeId": 2,
+                        "compliantStatusId": 2,
+                        "evaluationComment": "tested-4",
+                        "evidenceReviewSummary": "tested-4"
+                    },
+                    {
+                        "evaluatedAt": "2025-08-19 23:05:14",
+                        "evaluationId": 25,
+                        "evaluationScore": 3,
+                        "evaluatorUserId": 148,
+                        "evaluationModeId": 2,
+                        "compliantStatusId": 2,
+                        "evaluationComment": "tested-4",
+                        "evidenceReviewSummary": "tested-4"
+                    }
+                ],
+                "displayOrder": 11,
+                "questionText": "Do you monitor your third-party service providers’ security practices?",
+                "currentStageId": 5,
+                "questionTypeId": 1,
+                "currentStatusId": 11,
+                "vendorAssessmentQuestionId": 152
+            }
+        ],
+        "submission": {
+            "isActive": true,
+            "vendorName": "Aditya Birla Group",
+            "riskLevelId": 3,
+            "submittedBy": "system",
+            "submissionId": 26,
+            "currentStageId": 6,
+            "submissionDate": "2025-08-19 19:03:04",
+            "currentStatusId": 12,
+            "thirdPartyVendorId": 80
+        }
+    },
+    "isSuccess": true,
+    "status": 201
+}
